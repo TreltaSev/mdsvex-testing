@@ -4,6 +4,7 @@
     "": {
       "dependencies": {
         "mdsvex": "^0.12.6",
+        "mdsvex-testing": "file:",
       },
       "devDependencies": {
         "@eslint/compat": "^1.2.5",
@@ -419,6 +420,8 @@
 
     "mdsvex": ["mdsvex@0.12.6", "", { "dependencies": { "@types/mdast": "^4.0.4", "@types/unist": "^2.0.3", "prism-svelte": "^0.4.7", "prismjs": "^1.17.1", "unist-util-visit": "^2.0.1", "vfile-message": "^2.0.4" }, "peerDependencies": { "svelte": "^3.56.0 || ^4.0.0 || ^5.0.0-next.120" } }, "sha512-pupx2gzWh3hDtm/iDW4WuCpljmyHbHi34r7ktOqpPGvyiM4MyfNgdJ3qMizXdgCErmvYC9Nn/qyjePy+4ss9Wg=="],
 
+    "mdsvex-testing": ["mdsvex-testing@file:", { "dependencies": { "mdsvex": "^0.12.6", "mdsvex-testing": "file:" }, "devDependencies": { "@eslint/compat": "^1.2.5", "@eslint/js": "^9.18.0", "@sveltejs/adapter-static": "^3.0.8", "@sveltejs/kit": "^2.16.0", "@sveltejs/vite-plugin-svelte": "^5.0.0", "@tailwindcss/vite": "^4.0.0", "eslint": "^9.18.0", "eslint-config-prettier": "^10.0.1", "eslint-plugin-svelte": "^3.0.0", "globals": "^16.0.0", "prettier": "^3.4.2", "prettier-plugin-svelte": "^3.3.3", "prettier-plugin-tailwindcss": "^0.6.11", "svelte": "^5.0.0", "svelte-check": "^4.0.0", "tailwindcss": "^4.0.0", "typescript": "^5.0.0", "typescript-eslint": "^8.20.0", "vite": "^6.2.6" } }],
+
     "merge2": ["merge2@1.4.1", "", {}, "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg=="],
 
     "micromatch": ["micromatch@4.0.8", "", { "dependencies": { "braces": "^3.0.3", "picomatch": "^2.3.1" } }, "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA=="],
@@ -590,6 +593,8 @@
     "@typescript-eslint/typescript-estree/minimatch": ["minimatch@9.0.5", "", { "dependencies": { "brace-expansion": "^2.0.1" } }, "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow=="],
 
     "fast-glob/glob-parent": ["glob-parent@5.1.2", "", { "dependencies": { "is-glob": "^4.0.1" } }, "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="],
+
+    "mdsvex-testing/mdsvex-testing": ["mdsvex-testing@file:.", {}],
 
     "micromatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 

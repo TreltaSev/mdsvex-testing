@@ -1,2 +1,28 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import { compile } from 'mdsvex';
+
+	import { mdsvex_config } from '@config';
+	import { onMount, type Snippet } from 'svelte';
+
+    let html = $state(``)
+
+	let child: any | undefined = $state(undefined)
+	
+
+	onMount(async () => {
+
+		console.log(import.meta.glob('./lib/docs/**/*.{txt}', {eager: true}))
+		
+
+		// let x = await import('@doc/+page.svx')
+		// child = x
+
+
+		// setTimeout(() => {
+		// 	console.log(child)
+		// }, 100)
+	});
+</script>
+
+<span>Testing direct compilation</span>
+<!-- {@render child?.default?.()} -->
