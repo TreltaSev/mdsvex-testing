@@ -10,7 +10,7 @@ const config = {
 	preprocess: [
 		vitePreprocess(),
 		mdsvex({
-			layout: { _: path.resolve('src/routes/docs/_layouts/bare.svelte') },
+			layout: { _: path.resolve('src/lib/docs/_layouts/bare.svelte') },
 			extensions: ['.svx']
 		})
 	],
