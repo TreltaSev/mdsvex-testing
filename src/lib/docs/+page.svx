@@ -2,13 +2,4 @@
 title: Example Documentation Title
 ---
 
-# Hi there
-
-llelelel
-
-- test
-- test 2
-
-```python
-poggers pog champ
-```
+# sk-clib documentation
