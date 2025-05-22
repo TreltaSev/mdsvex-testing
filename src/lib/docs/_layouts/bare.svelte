@@ -1,7 +1,8 @@
 <script>
-	let { children, title = $bindable('Given TItle') } = $props();
+	import { Header } from "sk-clib";
+	let { children, title = $bindable('Not given a title :(') } = $props();
 </script>
 
-<h1>{title}</h1>
+<Header xl>{title}</Header>
 
 {@render children?.()}
