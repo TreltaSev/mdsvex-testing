@@ -36,6 +36,7 @@
 	},
 	"dependencies": {
 		"mdsvex": "^0.12.6",
-		"mdsvex-testing": "file:"
+		"mdsvex-testing": "file:",
+		"sk-clib": "^0.0.8"
 	}
 }
